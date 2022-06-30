@@ -1,13 +1,36 @@
-# DAE_SVR
-Simulate the data and draw plot of our variables.
-when you want to learn R and another programming language, you should learn it through a problem.
+---
+title: habits
+author: Mahdi Abbasi
+date: 2022-06-30
+output: 
+  html_document:
+    toc: TRUE
+    toc_depth: 2
+    toc_float: true
+    number_sections: true
+    theme: readable
+    highlight: espresso
+    fig_caption: true
+    df_print: paged
+    
 
-## via youtube
-> there are several `r medthos`.
+---
 
-1. Wake up
-- wash your hands and face
-- take a short shower
-2. get dress up
-- put on your favourit clothes
--  do a perfume
+# . Quarterly Result
+
+## By Product
+
+```{r}
+print(mtcars)
+```
+
+## By region
+
+## Next Step {#nextsteps .emphasized}
+
+
+# . Figure Result
+
+## By Product
+
+## By region
